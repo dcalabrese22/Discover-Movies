@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_popular">Most Popular</string>
+    <string name="error_message">An error has occurred</string>
+    <string name="action_rated">Top Rated</string>
+
+    <string name="release_date_text">Released: %1$s</string>
+    <string name="rating_text">%1$s/10</string>
+    <string name="action_favorite">Favorites</string>
+
+    <string name="detail_actionbar">Movie Details</string>
+    <string name="favorites_actionbar">Favorite Movies</string>
+</resources>
