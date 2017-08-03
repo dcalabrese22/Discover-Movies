@@ -113,6 +113,8 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
         //decode the image and set it in the imageview
         Bitmap bmp = BitmapFactory.decodeByteArray(pic, 0, pic.length);
         holder.mPoster.setImageBitmap(bmp);
+
+        holder.mPoster.setTransitionName(title);
     }
 
     /**
@@ -144,7 +146,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
         public void onClick(View v) {
             int adapterPosition = getAdapterPosition();
             mCursor.moveToPosition(adapterPosition);
-            mClickHandler.onFavoriteClick(v);
+            mClickHandler.onFavoriteClick(mCursor, adapterPosition, v);
         }
     }
 }

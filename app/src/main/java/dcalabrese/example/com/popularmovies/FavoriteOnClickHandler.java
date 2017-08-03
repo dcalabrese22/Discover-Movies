@@ -4,6 +4,7 @@
 
 package dcalabrese.example.com.popularmovies;
 
+import android.database.Cursor;
 import android.view.View;
 
 /**
@@ -11,5 +12,5 @@ import android.view.View;
  */
 public interface FavoriteOnClickHandler {
 
-    void onFavoriteClick(View v);
+    void onFavoriteClick(Cursor cursor, int position, View sharedView);
 }

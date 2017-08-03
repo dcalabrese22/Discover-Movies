@@ -16,26 +16,29 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 
 import dcalabrese.example.com.popularmovies.AdapterOnClickHandler;
-import dcalabrese.example.com.popularmovies.helpers.NetworkUtils;
 import dcalabrese.example.com.popularmovies.R;
+import dcalabrese.example.com.popularmovies.helpers.NetworkUtils;
 import dcalabrese.example.com.popularmovies.objects.MovieFromDatabase;
 
 /**
  * Adapter for handling recyclerviews in the main activity
  */
 
-public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.AdapterViewHolder> {
+public class    MovieAdapter extends RecyclerView.Adapter<MovieAdapter.AdapterViewHolder> {
 
     private ArrayList<MovieFromDatabase> mMoviesFromDatabase;
     private AdapterOnClickHandler mOnClickHandler;
+    private Context mContext;
 
     /**
      * Constructor for class
      *
      * @param onClickHandler
      */
-    public MovieAdapter(AdapterOnClickHandler onClickHandler) {
+    public MovieAdapter(Context context, AdapterOnClickHandler onClickHandler) {
         mOnClickHandler = onClickHandler;
+        mContext = context;
+
     }
 
     public void setMovieData(ArrayList<MovieFromDatabase> moviesFromDatabase) {
@@ -71,7 +74,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.AdapterViewH
     /**
      * Class for creating each item view in the RecyclerView
      */
-    public class AdapterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+    public class AdapterViewHolder extends RecyclerView.ViewHolder {
 
         ImageView mMoviePosterDisplay;
 
@@ -83,19 +86,19 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.AdapterViewH
         public AdapterViewHolder(View view) {
             super(view);
             mMoviePosterDisplay = (ImageView) view.findViewById(R.id.iv_movie_item);
-            view.setOnClickListener(this);
+//            view.setOnClickListener(this);
         }
 
         /**
          * Handles clicks in each view holder
-         * @param v The view
+         *
          */
-        @Override
-        public void onClick(View v) {
-            int adapterPosition = getAdapterPosition();
-            MovieFromDatabase movie = mMoviesFromDatabase.get(adapterPosition);
-            mOnClickHandler.onMovieClick(movie);
-        }
+//        @Override
+//        public void onClick(View v) {
+//            int adapterPosition = getAdapterPosition();
+//            MovieFromDatabase movie = mMoviesFromDatabase.get(adapterPosition);
+//            mOnClickHandler.onMovieClick(movie, adapterPosition, mMoviePosterDisplay);
+//        }
 
         public int moviePosition() {
             return getAdapterPosition();
@@ -132,12 +135,28 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.AdapterViewH
      * @param position The position in the recyclerview
      */
     @Override
-    public void onBindViewHolder(AdapterViewHolder holder, int position) {
-        ImageView target = holder.mMoviePosterDisplay;
+    public void onBindViewHolder(final AdapterViewHolder holder, final int position) {
+        final ImageView target = holder.mMoviePosterDisplay;
         String moviePosterPath = mMoviesFromDatabase.get(position).getImagePath();
         String moviePosterUrl = NetworkUtils.builtPosterURL(moviePosterPath);
         Picasso.with(holder.mMoviePosterDisplay.getContext())
                 .load(moviePosterUrl)
                 .into(target);
+
+        final MovieFromDatabase movie = mMoviesFromDatabase.get(position);
+        target.setTransitionName(movie.getMovieId());
+        target.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mOnClickHandler.onMovieClick(movie, holder.getAdapterPosition(), target);
+            }
+        });
+
+        target.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mOnClickHandler.onMovieClick(movie, position, target);
+            }
+        });
     }
 }

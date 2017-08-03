@@ -5,6 +5,8 @@
 package dcalabrese.example.com.popularmovies;
 
 
+import android.widget.ImageView;
+
 import dcalabrese.example.com.popularmovies.objects.MovieFromDatabase;
 
 /**
@@ -12,5 +14,5 @@ import dcalabrese.example.com.popularmovies.objects.MovieFromDatabase;
  */
 public interface AdapterOnClickHandler {
 
-    void onMovieClick(MovieFromDatabase movie);
+    void onMovieClick(MovieFromDatabase movie, int position, ImageView sharedView);
 }

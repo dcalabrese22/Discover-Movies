@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\0ae4e99b9c1a096bfd4a1b2a43757d90cde7c7ef\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

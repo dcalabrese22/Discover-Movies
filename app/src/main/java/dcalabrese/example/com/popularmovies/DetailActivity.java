@@ -14,8 +14,8 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -32,7 +32,6 @@ import com.squareup.picasso.Picasso;
 import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 import dcalabrese.example.com.popularmovies.adapters.MovieDetailsAdapter;
@@ -80,6 +79,9 @@ public class DetailActivity extends AppCompatActivity implements TrailerOnClickH
         mMovieRating = (TextView) findViewById(R.id.tv_rating);
         mMovieSynopsis = (TextView) findViewById(R.id.tv_synopsis);
         mMoviePoster = (ImageView) findViewById(R.id.iv_detail_poster);
+        String imageTransitionName = getIntent().getExtras()
+                .getString(MainActivity.INTENT_EXTRA_TRANSITION_NAME);
+        mMoviePoster.setTransitionName(imageTransitionName);
         mStarButton = (CheckBox) findViewById(R.id.cb_star);
 
         mDetailsRecylerView = (RecyclerView) findViewById(R.id.rv_trailers);

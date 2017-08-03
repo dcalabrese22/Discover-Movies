@@ -16,7 +16,7 @@ public class NetworkUtils {
     private static final String DB_POSTER_URL = "http://image.tmdb.org/t/p/w185/";
     private static final String DB_VIDEOS_URLS = "/videos";
     private static final String DB_REVIEW_URL = "/reviews";
-    private static final String API_KEY = "?api_key=" + your_api_key;
+    private static final String API_KEY = "?api_key=" + "7609aa2463f2fe7101ac9701637598a7";
     private static final String YOUTUBE_URL = "https://www.youtube.com/watch?v=";
 
     /**

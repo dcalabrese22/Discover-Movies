@@ -1,0 +1,7 @@
+#Thu Aug 03 15:44:24 EDT 2017
+base.0=C\:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_aa1d08c0285a20ef05de1a94460be2920c6f4e11
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_118388ecc04b9cdbdb06dcc94b47154c89003d1b\\classes.dex
+base.1=C\:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_118388ecc04b9cdbdb06dcc94b47154c89003d1b
+file.0=C\:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_aa1d08c0285a20ef05de1a94460be2920c6f4e11\\classes.dex

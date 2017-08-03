@@ -7,23 +7,25 @@ package dcalabrese.example.com.popularmovies;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
-import android.os.Parcelable;
-import android.os.PersistableBundle;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.os.Parcelable;
+import android.support.v4.app.ActivityOptionsCompat;
+import android.support.v4.view.ViewCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.android.volley.Request;
-import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
@@ -98,12 +100,16 @@ public class MainActivity extends AppCompatActivity implements AdapterOnClickHan
         }
         mRecyclerView.setHasFixedSize(true);
 
-        mMovieAdapter = new MovieAdapter(this);
+        mMovieAdapter = new MovieAdapter(this, this);
         mRecyclerView.setAdapter(mMovieAdapter);
         mRecyclerView.addOnScrollListener(createInfiniteScrollListener());
 
         getMoviesFromDatabase(mPageNumber);
 
+        RelativeLayout main = (RelativeLayout) findViewById(R.id.main);
+        Animation slideUp = AnimationUtils.loadAnimation(this, R.anim.slide_up);
+
+        mRecyclerView.startAnimation(slideUp);
     }
 
     /**
@@ -171,16 +177,19 @@ public class MainActivity extends AppCompatActivity implements AdapterOnClickHan
         return super.onOptionsItemSelected(item);
     }
 
+    public static final String INTENT_EXTRA_TRANSITION_NAME = "transition_name";
     /**
      * Creates and starts the detail activity for showing specifics of movie selected
      *
      * @param movie The movie selected
      */
     @Override
-    public void onMovieClick(MovieFromDatabase movie) {
+    public void onMovieClick(MovieFromDatabase movie, int position, ImageView sharedView) {
         Context context = this;
         Class destinationClass = DetailActivity.class;
         Intent intentToStartDetailActivity = new Intent(context, destinationClass);
+        intentToStartDetailActivity.putExtra(INTENT_EXTRA_TRANSITION_NAME,
+                ViewCompat.getTransitionName(sharedView));
         intentToStartDetailActivity.putExtra(SOURCE, MAIN);
         intentToStartDetailActivity.putExtra(MOVIE_TITLE, movie.getTitle());
         intentToStartDetailActivity.putExtra(MOVIE_IMAGE_PATH, movie.getImagePath());
@@ -188,7 +197,11 @@ public class MainActivity extends AppCompatActivity implements AdapterOnClickHan
         intentToStartDetailActivity.putExtra(MOVIE_RATING, movie.getRating());
         intentToStartDetailActivity.putExtra(MOVIE_RELEASE_DATE, movie.getReleaseDate());
         intentToStartDetailActivity.putExtra(MOVIE_ID, movie.getMovieId());
-        startActivity(intentToStartDetailActivity);
+        ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this,
+                sharedView,
+                ViewCompat.getTransitionName(sharedView));
+        startActivity(intentToStartDetailActivity, optionsCompat.toBundle());
     }
 
     /**
