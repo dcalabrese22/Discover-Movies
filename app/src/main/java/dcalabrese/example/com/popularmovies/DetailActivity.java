@@ -18,6 +18,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ImageView;
@@ -74,13 +75,22 @@ public class DetailActivity extends AppCompatActivity implements TrailerOnClickH
         setContentView(R.layout.activity_detail);
         getSupportActionBar().setTitle(R.string.detail_actionbar);
 
+        supportPostponeEnterTransition();
+
         mMovieTitle = (TextView) findViewById(R.id.tv_title);
         mMovieReleaseDate = (TextView) findViewById(R.id.tv_release_date);
         mMovieRating = (TextView) findViewById(R.id.tv_rating);
         mMovieSynopsis = (TextView) findViewById(R.id.tv_synopsis);
         mMoviePoster = (ImageView) findViewById(R.id.iv_detail_poster);
-        String imageTransitionName = getIntent().getExtras()
-                .getString(MainActivity.INTENT_EXTRA_TRANSITION_NAME);
+        String imageTransitionName;
+        if (getIntent().getStringExtra(MainActivity.SOURCE).equals(MainActivity.MAIN)) {
+            imageTransitionName = getIntent().getExtras()
+                    .getString(MainActivity.INTENT_EXTRA_TRANSITION_NAME);
+        } else {
+            imageTransitionName = getIntent().getExtras()
+                    .getString(MainActivity.INTENT_EXTRA_TRANSITION_NAME);
+        }
+
         mMoviePoster.setTransitionName(imageTransitionName);
         mStarButton = (CheckBox) findViewById(R.id.cb_star);
 
@@ -299,6 +309,7 @@ public class DetailActivity extends AppCompatActivity implements TrailerOnClickH
                     .load(NetworkUtils.builtPosterURL(mPosterPath))
                     .into(mMoviePoster);
             getMovieTrailers(mMovieId);
+            supportStartPostponedEnterTransition();
         } else {
             String title = intent.getStringExtra(FavoritesActivity.MOVIE_TITLE);
             mCursor = getContentResolver().query(MovieContract.MovieEntry.MOVIE_CONTENT_URI, null,
@@ -318,7 +329,7 @@ public class DetailActivity extends AppCompatActivity implements TrailerOnClickH
             mMovieSynopsis.setText(synopsis);
             mMoviePoster.setImageBitmap(bmp);
             mMovieDetailsAdapter.setData(getReviewsForFavorite());
-
+            supportStartPostponedEnterTransition();
         }
     }
 

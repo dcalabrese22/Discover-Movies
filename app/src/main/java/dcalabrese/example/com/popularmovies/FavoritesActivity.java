@@ -7,13 +7,16 @@ package dcalabrese.example.com.popularmovies;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.AsyncTaskLoader;
 import android.support.v4.content.Loader;
+import android.support.v4.view.ViewCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -53,21 +56,27 @@ public class FavoritesActivity extends AppCompatActivity implements LoaderManage
         getSupportLoaderManager().initLoader(LOADER_ID, null, this);
     }
 
+    public static final String FAVORITES_TRANSITION_NAME = "fav_transition_name";
     /**
      * Handles opening the detail activity coming from this activity
      *
      * @param v The view clicked
      */
     @Override
-    public void onFavoriteClick(View v) {
-        TextView title = (TextView) v.findViewById(R.id.tv_favorite_title);
+    public void onFavoriteClick(String title, int position, View v) {
+        TextView titleTv = (TextView) v.findViewById(R.id.tv_favorite_title);
         Context context = getApplicationContext();
         Class destination = DetailActivity.class;
         Intent intent = new Intent(context, destination);
         //this extra is used for determining the intent that started the detail activity
         intent.putExtra(MainActivity.SOURCE, "favorites");
-        intent.putExtra(MOVIE_TITLE, title.getText().toString());
-        startActivity(intent);
+        intent.putExtra(MOVIE_TITLE, title);
+        intent.putExtra(MainActivity.INTENT_EXTRA_TRANSITION_NAME, ViewCompat.getTransitionName(v));
+        ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(
+                this,
+                v,
+                ViewCompat.getTransitionName(v));
+        startActivity(intent, optionsCompat.toBundle());
     }
 
     /**

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+        "outputFile": "/media/dan/Storage/Discover-Movies/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\790a23da2c5d06794bbb60327bdc357310e7b3a7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "/home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\790a23da2c5d06794bbb60327bdc357310e7b3a7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "/home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -53,7 +53,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\790a23da2c5d06794bbb60327bdc357310e7b3a7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "/home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\790a23da2c5d06794bbb60327bdc357310e7b3a7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "/home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

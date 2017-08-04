@@ -6,85 +6,80 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1501789887281"
-    token="-2700323463273171293"
+    timestamp="1501799046962"
+    token="-9118746188811199396"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="872" />
+        duration="110" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="107" />
+        duration="15" />
     <task
         name="verifier"
-        duration="36" />
+        duration="1" />
 
     <artifact
-        location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1501787056949"
+        timestamp="1501795576145"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1501789456712"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\outputs\apk\app-debug.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1501789887281"
+        timestamp="1501799046962"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/dan/Storage/Discover-Movies/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
     </build>
 

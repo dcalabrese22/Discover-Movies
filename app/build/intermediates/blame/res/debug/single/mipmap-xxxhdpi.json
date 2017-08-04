@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/media/dan/Storage/Discover-Movies/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/media/dan/Storage/Discover-Movies/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
-        "source": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "/media/dan/Storage/Discover-Movies/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/media/dan/Storage/Discover-Movies/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     }
 ]

@@ -94,7 +94,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
      * @param position Position of the FavoriteViewHolder in the recyclerview
      */
     @Override
-    public void onBindViewHolder(FavoriteViewHolder holder, int position) {
+    public void onBindViewHolder(final FavoriteViewHolder holder, final int position) {
         //column index of the movie posters in the database
         int picIndex = mCursor.getColumnIndex(MovieContract.MovieEntry.MOVIE_COLUMN_POSTER);
         //column index of the title in the database
@@ -105,7 +105,7 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
         mCursor.moveToPosition(position);
 
         //get the title and picture data from the database
-        String title = mCursor.getString(titleIndex);
+        final String title = mCursor.getString(titleIndex);
         byte[] pic = mCursor.getBlob(picIndex);
 
         //set the Textview to the movie title
@@ -115,12 +115,26 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
         holder.mPoster.setImageBitmap(bmp);
 
         holder.mPoster.setTransitionName(title);
+
+        holder.mPoster.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mClickHandler.onFavoriteClick(title, holder.getAdapterPosition(), holder.mPoster);
+            }
+        });
+
+        holder.mTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mClickHandler.onFavoriteClick(title, holder.getAdapterPosition(), holder.mPoster);
+            }
+        });
     }
 
     /**
      * Class for creating each view in the favorites recyclerview
      */
-    public class FavoriteViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public class FavoriteViewHolder extends RecyclerView.ViewHolder {
 
         ImageView mPoster;
         TextView mTitle;
@@ -134,19 +148,19 @@ public class FavoritesAdapter extends RecyclerView.Adapter<FavoritesAdapter.Favo
             super(view);
             mPoster = (ImageView) view.findViewById(R.id.iv_favorite_poster);
             mTitle = (TextView) view.findViewById(R.id.tv_favorite_title);
-            view.setOnClickListener(this);
+//            view.setOnClickListener(this);
         }
 
-        /**
-         * Handles click of each view holder
-         *
-         * @param v
-         */
-        @Override
-        public void onClick(View v) {
-            int adapterPosition = getAdapterPosition();
-            mCursor.moveToPosition(adapterPosition);
-            mClickHandler.onFavoriteClick(mCursor, adapterPosition, v);
-        }
+//        /**
+//         * Handles click of each view holder
+//         *
+//         * @param v
+//         */
+//        @Override
+//        public void onClick(View v) {
+//            int adapterPosition = getAdapterPosition();
+//            mCursor.moveToPosition(adapterPosition);
+//            mClickHandler.onFavoriteClick(mCursor, adapterPosition, v);
+//        }
     }
 }

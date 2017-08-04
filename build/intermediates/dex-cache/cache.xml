@@ -3,111 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\52d164cbde6d50c7a235dad9eb55d5f9491e407e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_952327e56499864786ee44dfa09da16cb68143b7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\f8070749fb4ab9d87bdf23c886a7ea2e268bc34d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ea33f03d45aa6e31b78d3e74d319f5fb27d387e7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_740eb761547b577c91d29604f62e55676b154537\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\428aa0a3f123eb5b5c48684c7c8495ceab1b2632\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a32aa0b5a9778528190aab740c8eba6b883d9d33\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\60107ca631513eab73538efa0c8b2e59805b0d5b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72f5b0b2990b061d4e9b253826e5be9c27777b89\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\7fee8908488a46e2651d89396414a892c2722bdf\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eb7a0264254623674588d39d7c78d937546afa95\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e9b1d6ef113254252e2b3eb511def06b83c3e426">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_118388ecc04b9cdbdb06dcc94b47154c89003d1b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\837542a49ea3ce8d15630f686ef93766ab8ff183\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f5d6bc4e55be05aa246f0ea4c9dcc3781c45235\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/media/dan/Storage/Discover-Movies/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_aa1d08c0285a20ef05de1a94460be2920c6f4e11\classes.dex" />
+        <dex dex="/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92e2f4c41d828f7cabc6ca5c806f78afd8552ac9/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\8d7a77fc4690cb37cc4451c28231d4a84319510d\output\jars\classes.jar"
+        jar="/media/dan/Storage/Discover-Movies/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_641dd356fa446425dc1dd3d060fda385e4e90966\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\5b7bddf4dc307e7da2936fe244ec4a575fe70265\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2aa3129c5a5f43926407bd8656955d9dc76fa483\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\dcalabrese\.android\build-cache\301d494b0432c21a19d62aa673d64a655953da26\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f25dc4174e3b97d7675c4b9d7e925af661365ed\classes.dex" />
+        sha1="98aaef0c4f878fc40389869bbb86efd6ad55ba4d">
+        <dex dex="/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e61547bb057eb2c6e54bb3d3c5c503dc847cb0a/classes.dex" />
     </item>
 
 </items>

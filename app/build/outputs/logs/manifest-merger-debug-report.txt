@@ -1,111 +1,111 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:3:5-51
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:7:5-29:19
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\dcalabrese\.android\build-cache\428aa0a3f123eb5b5c48684c7c8495ceab1b2632\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\dcalabrese\.android\build-cache\52d164cbde6d50c7a235dad9eb55d5f9491e407e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\7fee8908488a46e2651d89396414a892c2722bdf\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\dcalabrese\.android\build-cache\60107ca631513eab73538efa0c8b2e59805b0d5b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\837542a49ea3ce8d15630f686ef93766ab8ff183\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\8d7a77fc4690cb37cc4451c28231d4a84319510d\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\dcalabrese\.android\build-cache\f8070749fb4ab9d87bdf23c886a7ea2e268bc34d\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\301d494b0432c21a19d62aa673d64a655953da26\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dcalabrese\.android\build-cache\5de8127f28190033e0cdf12f3389f6981731148b\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\dcalabrese\.android\build-cache\7e384f65f18496f2ff5f5088a12c7da4f4ec9d8f\output\AndroidManifest.xml:9:5-20
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/dan/.android/build-cache/00533845997c0efe42b109b44e4aa3b3d60be2db/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/dan/.android/build-cache/b5fbb246f20eadfa14bfe42735041c7ef7cf4fa0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/dan/.android/build-cache/9cd056b810437be6a49f62ef43dfcd95b8400095/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/dan/.android/build-cache/d7efd084111515701cbe56ab23ff5e1e12921a98/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/dan/.android/build-cache/f75c4f88fe26679f3998ddd367854c08c0163ef1/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/dan/.android/build-cache/3480ce4c6c0908b82d194c18b57ae42029a2b777/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/dan/.android/build-cache/dcb1e4f5e0cf2099d94b2edd3bf2bdfe7ca6500d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/dan/.android/build-cache/28b9a8cd8fba8d4352f3ffa337934cf6917849b1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dan/.android/build-cache/cb110759596e3fcf1324f7e6cbd49f6dff37b197/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] /home/dan/.android/build-cache/a95fa3e0f54c6aca72c3d8229617ccaad31bc457/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:12:9-35
 	android:roundIcon
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:11:9-54
 	android:allowBackup
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:13:9-40
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:13:9-40
 activity#dcalabrese.example.com.popularmovies.MainActivity
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:14:19-47
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:18:27-74
 activity#dcalabrese.example.com.popularmovies.DetailActivity
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:21:9-52
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:21:9-52
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:21:19-49
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:21:19-49
 provider#dcalabrese.example.com.popularmovies.helpers.MyContentProvider
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:23:9-26:39
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:23:9-26:39
 	android:authorities
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:25:13-71
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:25:13-71
 	android:exported
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:24:13-90
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:24:13-90
 activity#dcalabrese.example.com.popularmovies.FavoritesActivity
-ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:28:9-55
+ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:28:9-55
 	android:name
-		ADDED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml:28:19-52
+		ADDED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml:28:19-52
 uses-sdk
-INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\dcalabrese\.android\build-cache\428aa0a3f123eb5b5c48684c7c8495ceab1b2632\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\dcalabrese\.android\build-cache\52d164cbde6d50c7a235dad9eb55d5f9491e407e\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\7fee8908488a46e2651d89396414a892c2722bdf\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\dcalabrese\.android\build-cache\60107ca631513eab73538efa0c8b2e59805b0d5b\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\837542a49ea3ce8d15630f686ef93766ab8ff183\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\8d7a77fc4690cb37cc4451c28231d4a84319510d\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\5b7bddf4dc307e7da2936fe244ec4a575fe70265\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\dcalabrese\.android\build-cache\f8070749fb4ab9d87bdf23c886a7ea2e268bc34d\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\301d494b0432c21a19d62aa673d64a655953da26\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dcalabrese\.android\build-cache\5de8127f28190033e0cdf12f3389f6981731148b\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\dcalabrese\.android\build-cache\7e384f65f18496f2ff5f5088a12c7da4f4ec9d8f\output\AndroidManifest.xml:7:5-43
+INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] /home/dan/.android/build-cache/00533845997c0efe42b109b44e4aa3b3d60be2db/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/dan/.android/build-cache/b5fbb246f20eadfa14bfe42735041c7ef7cf4fa0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/dan/.android/build-cache/9cd056b810437be6a49f62ef43dfcd95b8400095/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/dan/.android/build-cache/d7efd084111515701cbe56ab23ff5e1e12921a98/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/dan/.android/build-cache/f75c4f88fe26679f3998ddd367854c08c0163ef1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/dan/.android/build-cache/3480ce4c6c0908b82d194c18b57ae42029a2b777/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/dan/.android/build-cache/1303fb3e9db740cf3df5ba663c03ce5e4ba6e703/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/dan/.android/build-cache/dcb1e4f5e0cf2099d94b2edd3bf2bdfe7ca6500d/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.0] /home/dan/.android/build-cache/28b9a8cd8fba8d4352f3ffa337934cf6917849b1/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dan/.android/build-cache/cb110759596e3fcf1324f7e6cbd49f6dff37b197/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] /home/dan/.android/build-cache/a95fa3e0f54c6aca72c3d8229617ccaad31bc457/output/AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dcalabrese\Desktop\GitHub\Discover-Movies\app\src\main\AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
+		INJECTED from /media/dan/Storage/Discover-Movies/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.0] C:\Users\dcalabrese\.android\build-cache\428aa0a3f123eb5b5c48684c7c8495ceab1b2632\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\dcalabrese\.android\build-cache\52d164cbde6d50c7a235dad9eb55d5f9491e407e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\7fee8908488a46e2651d89396414a892c2722bdf\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\dcalabrese\.android\build-cache\60107ca631513eab73538efa0c8b2e59805b0d5b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\837542a49ea3ce8d15630f686ef93766ab8ff183\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.0] C:\Users\dcalabrese\.android\build-cache\8d7a77fc4690cb37cc4451c28231d4a84319510d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\5b7bddf4dc307e7da2936fe244ec4a575fe70265\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\dcalabrese\.android\build-cache\f8070749fb4ab9d87bdf23c886a7ea2e268bc34d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] C:\Users\dcalabrese\.android\build-cache\301d494b0432c21a19d62aa673d64a655953da26\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/dan/.android/build-cache/00533845997c0efe42b109b44e4aa3b3d60be2db/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/dan/.android/build-cache/b5fbb246f20eadfa14bfe42735041c7ef7cf4fa0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/dan/.android/build-cache/9cd056b810437be6a49f62ef43dfcd95b8400095/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/dan/.android/build-cache/d7efd084111515701cbe56ab23ff5e1e12921a98/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/dan/.android/build-cache/f75c4f88fe26679f3998ddd367854c08c0163ef1/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/dan/.android/build-cache/3480ce4c6c0908b82d194c18b57ae42029a2b777/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/dan/.android/build-cache/1303fb3e9db740cf3df5ba663c03ce5e4ba6e703/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/dan/.android/build-cache/dcb1e4f5e0cf2099d94b2edd3bf2bdfe7ca6500d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/dan/.android/build-cache/28b9a8cd8fba8d4352f3ffa337934cf6917849b1/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.0] C:\Users\dcalabrese\.android\build-cache\790a23da2c5d06794bbb60327bdc357310e7b3a7\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.0] /home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/AndroidManifest.xml:26:9-47

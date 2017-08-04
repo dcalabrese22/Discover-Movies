@@ -12,5 +12,5 @@ import android.view.View;
  */
 public interface FavoriteOnClickHandler {
 
-    void onFavoriteClick(Cursor cursor, int position, View sharedView);
+    void onFavoriteClick(String title, int position, View sharedView);
 }

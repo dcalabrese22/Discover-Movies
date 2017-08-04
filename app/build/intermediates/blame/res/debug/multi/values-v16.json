@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\dcalabrese\\Desktop\\GitHub\\Discover-Movies\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+        "outputFile": "/media/dan/Storage/Discover-Movies/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 116
                 },
                 "from": {
-                    "file": "C:\\Users\\dcalabrese\\.android\\build-cache\\790a23da2c5d06794bbb60327bdc357310e7b3a7\\output\\res\\values-v16\\values-v16.xml",
+                    "file": "/home/dan/.android/build-cache/6dd4eaa99d4d831ffac72e78726fa0fccae1a4e9/output/res/values-v16/values-v16.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
