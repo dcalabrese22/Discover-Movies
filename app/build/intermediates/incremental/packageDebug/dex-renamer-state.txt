@@ -1,7 +1,0 @@
-#Thu Aug 03 17:26:17 EDT 2017
-base.0=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92e2f4c41d828f7cabc6ca5c806f78afd8552ac9
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e61547bb057eb2c6e54bb3d3c5c503dc847cb0a/classes.dex
-base.1=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9e61547bb057eb2c6e54bb3d3c5c503dc847cb0a
-file.0=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92e2f4c41d828f7cabc6ca5c806f78afd8552ac9/classes.dex

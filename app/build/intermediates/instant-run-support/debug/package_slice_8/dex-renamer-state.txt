@@ -1,4 +1,0 @@
-#Thu Aug 03 17:26:17 EDT 2017
-base.0=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8
-renamed.0=classes.dex
-file.0=/media/dan/Storage/Discover-Movies/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex
